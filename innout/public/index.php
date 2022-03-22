@@ -1,5 +1,5 @@
 <?php
-// error_reporting(0);
+error_reporting(0);
 require_once(dirname(__FILE__, 2) .'/src/config/config.php');
 //aqui resolvi o caminho do arquivo a ser utilizado
 
