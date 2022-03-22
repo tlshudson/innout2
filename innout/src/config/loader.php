@@ -24,6 +24,10 @@ if (count($params) > 0) {//se a contagem de parametros for maior que 0
   }
 }
 
+$user = $_SESSION['user'];
+$workingHours = WorkingHours::loadFromUserAndDate($user->id, date('Y-m-d'));
+
+
 require_once(TEMPLATE_PATH . "/header.php");
 require_once(TEMPLATE_PATH . "/left.php");
 require_once(VIEW_PATH . "/{$viewName}.php");
