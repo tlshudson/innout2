@@ -1,11 +1,7 @@
 <footer class="footer">
-  <span>
-  <span>Desenvolvido com</span>
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
-      <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
-    </svg>
-  <span>por hudsonziin</span>
-  </span>
+    <span>Desenvolvido com</span>
+    <span><i class="icofont-heart text-danger mx-1"></i></span>
+    <span>por COD<span class="text-danger">3</span>R</span>
 </footer>
 <script src="assets/js/app.js"></script>
 </body>
